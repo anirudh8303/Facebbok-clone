@@ -1,0 +1,28 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.img1 {
+  object-fit: contain;
+  height: 80px;
+}
+.img2 {
+  object-fit: contain;
+  height: 200px;
+}
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+.login__bottom > button {
+  outline: none;
+  height: 50px;
+  background: lightskyblue;
+  font-size: medium;
+  color: darkblue;
+  width: 380px;
+  cursor: pointer;
+  border: 2px solid darkblue i !important;
+  border-radius: 30px;
+}
